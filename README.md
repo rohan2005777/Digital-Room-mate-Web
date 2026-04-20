@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Digital Roommate
 
 A smart project management platform for shared living spaces. This tool helps roommates stay organized by managing membership, rent, and common tasks through a secure, permission-based interface.
