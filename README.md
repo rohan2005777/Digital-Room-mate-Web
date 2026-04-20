@@ -2,13 +2,26 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Digital Roommate
 
-This contains everything you need to run your app locally.
+A smart project management platform for shared living spaces. This tool helps roommates stay organized by managing membership, rent, and common tasks through a secure, permission-based interface.
 
-View your app in AI Studio: https://ai.studio/apps/54bdee82-9bda-443a-b5c5-706b34b5cbdf
+## 🚀 Tech Stack
 
-## Core Modules
+### Frontend
+- **React 19** & **Vite** for a fast, modern UI.
+- **Tailwind CSS 4** for styling and responsiveness.
+- **Framer Motion** for smooth animations.
+- **Lucide React** for consistent iconography.
+- **Chart.js** for visual data representation.
+
+### Backend
+- **Node.js** & **Express** for a robust RESTful API.
+- **MongoDB** with **Mongoose** for flexible data modeling.
+- **JWT (JSON Web Tokens)** for secure, stateless authentication.
+- **Bcrypt.js** for advanced password hashing.
+
+## ✨ Core Modules
 
 ### 🔐 User Module
 - **Secure Auth**: Custom JWT-based Email/Password authentication.
@@ -20,7 +33,7 @@ View your app in AI Studio: https://ai.studio/apps/54bdee82-9bda-443a-b5c5-706b3
 - **Join Room**: Connect with roommates using a short **6-character Join Code** or a direct **24-character MongoDB ID**.
 - **Admin Controls**: Dedicated settings for managing monthly rent, city location, and roommate membership.
 
-## Run Locally
+## 🛠️ Run Locally
 
 **Prerequisites:** Node.js, MongoDB (Atlas or Local)
 
@@ -37,4 +50,3 @@ View your app in AI Studio: https://ai.studio/apps/54bdee82-9bda-443a-b5c5-706b3
 
 3. **Visit App**:
    - [http://localhost:3000](http://localhost:3000)
-   - Or via Network: `http://192.168.29.165:3000` (on the same Wi-Fi)
